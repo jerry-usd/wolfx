@@ -1,0 +1,636 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Wolfx Signals</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+   <link rel="stylesheet" href="https://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+     <script src="js/jquery.min.js" type="text/javascript"></script>
+     <link rel="icon" type="image/png" href="images/logo.png" />
+    <script src="js/jquery.easing.js" type="text/javascript"></script>
+    <script src="js/counter.min.js" type="text/javascript"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="main">
+      <div class="first">
+        <div class="nnav">
+          <div class="container-fluid">
+            <div class="row p-0">
+              <div class="col-sm-3 p-0 "><img src="images/log.png" height="150px" style="margin-left: 25px"></div>
+              <div class="col-sm-6 p-0 nnav-list mt-5">
+                
+                <ul>
+                  <li onclick="window.location='index.html';">Home</li>
+                  <li onclick="window.location='services.html';">Services</li>
+                  <li onclick="window.location='faq.html';">FAQ</li>
+                  <li onclick="window.location='about.html';">About</li>
+                  <li  onclick="window.location='index.html#footer';">Contact</li>
+                </ul>
+              </div>
+              <div class="col-sm-3 p-0 " style="margin-top: 40px">
+                <span class="iconify" data-icon="gg:profile" data-inline="false" style="color: #343047;" data-width="30" > </span> <span style="margin-left: 6px; cursor: pointer;" onclick="window.location='auth/index.html';">Login</span>
+                <button class="btn btn-primary btn-lg" style="border-radius: 30px; margin-left: 30px; color: #fbfafb; font-size: 1em; background: #343047" onclick="window.location='https://t.me/wolfxsignals_free';">Telegram <span class="iconify" data-icon="ph:telegram-logo" data-inline="false" style="color: #fbfafb;" data-width="20"></span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav sticky-top">
+          <div class="container-fluid">
+            <div class="row p-0">
+              <div class="col-3 mt-3" ><center><button style="background: transparent; border:transparent;"  data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><span class="iconify" data-icon="heroicons-outline:menu-alt-4" data-inline="false" data-width="40"></span></button></center></div>
+               <div class="col-6"><center><img src="images/log.png" height="70px"></center></div>
+                <div class="col-3 mt-3"><center><a href="https://t.me/wolfxsignals_free" ><span class="iconify" data-icon="logos:telegram" data-inline="false" data-width="40"></span></a></center></div>
+
+            </div>
+          </div>
+        </div>
+
+  <div class="jumbo container-fluid">
+    <div class="row p-0">
+      <div class="col-sm-6 mt-5 vcc" data-aos="zoom-in" style="padding-left: 50px;">
+        <p class="jumbo-title">Finance Your Future with powerful WOLFX Signals.</p>
+        <p class="jumbo-title2">We provide Profitable Forex and Cryptocurrency intraday Signals.</p><br class="g"><br class="g">
+        <button class="btn btn-lg btn-primary" onclick="window.location='https://t.me/wolfxsignals_free';">Free group</button> <button class="btn btn-lg btn-primary" onclick="window.location='services';">View Services</button>
+      </div>
+       <div class="col-sm-5 p-0"><img src="images/jumbo.png" height="400px"></div>
+    </div>
+    <div class="row p-0 mt-5">
+      <div class="col-sm-7 p-0 mt-5 pn"><img src="images/jumbo3.svg" height="500px"></div>
+      <div class="col-sm-5 p-0 mar0 " style="padding-left: 40px !important; margin-top: 150px">
+        <p class="jumbo-title" style="color:#fbfafb " data-aos="zoom-in-right">Most accurate & Trustworthy Forex Signal Provider.</p>
+        <p class="mt-3 mb-4 " style="font-size: 1.2em;  font-weight: bolder; width: 80%; color: #d7c16f">WOLFX Signals is here to help you Fulfill and Reach All of your Trading Goals.</p>
+        <p class="jumbo-title2" style="color: #d7c16f; font-weight: bold;">We’re a team of Experienced Traders and Stock Market Experts based in Sandton
+
+offering Profitable and Accurate Low-Cost Forex Signals and Mentorship. Learn more about our Services and How You can benefit from our Signals.</p>
+      </div>
+    </div>
+  </div><div style='margin-top: 200px;' class="mb-2 nj"><center ><img src="images/log.png" height="200px"></center>
+  <p style="text-align: center; font-weight: bolder; font-size: 2em">WOLFX Signals has helped over</p>
+  <p style="text-align: center; font-weight: bolder; font-size: 6em; color: #d7c16f" id="counter-up" class="mb-3">0</p>
+
+<p style="text-align: center;  font-size: 3em; color: #343047"  class="mb-3 pop" data-aos="zoom-in-right">Happy Traders.</p>
+<center>
+  <p style="text-align: center; width: 70%; font-weight: bold;">We are providing our Services to Traders & Businesses for almost 2 years now, and have helped over 17 thousand Happy Customers so far. We have more than 9 years of experience in Trading and Stock Market. Our Goal is to offer You Quality Professional Services and with all our knowledge, efforts and experience guide you to become a Successful Trader.</p>
+<button class="btn btn-lg mb=5" onclick="window.location='services.html';" style="background: #d7c16f">View Services</button>
+<br><br><br><hr style="width: 90%">
+<h3 class="jumbo-title mt-5 mb-5">Advantages</h3>
+</center>
+</div>
+<div class="container mt-5 add">
+  
+            <div class="row">
+              <div class="col-md-3 col-sm-6 col-xs-6 mb-5" data-aos="fade-up" data-aos-duration="900">
+                <div class="single-feature">
+                  <center><div class="icon-box" style="width: 90px">
+                  <svg preserveAspectRatio="xMidYMid meet" data-bbox="36.86 155.7 538.56 288.6" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" data-type="ugc" role="img" aria-labelledby="svgcid--qretk4nbxne"><title id="svgcid--qretk4nbxne"></title>
+    <g>
+        <path fill="#343047" d="M575.42 299.42c0 25.007-20.273 45.28-45.28 45.28s-45.28-20.273-45.28-45.28 20.273-45.28 45.28-45.28 45.28 20.273 45.28 45.28z"></path>
+        <path fill="none" stroke="#343047" stroke-linecap="round" stroke-linejoin="round" stroke-width="26" d="M160.28 247.29l11.56-37.25 16.87-54.34 31.76 288.6 47.64-187.28 51.61 110.53 63.52-153.52 27.8 85.97h119.1"></path>
+        <path fill="none" stroke="#343047" stroke-linecap="round" stroke-linejoin="round" stroke-width="26" d="M142.91 305.77l8.82-28.42"></path>
+        <path fill="none" stroke="#343047" stroke-linecap="round" stroke-linejoin="round" stroke-width="26" d="M36.86 267l32.75-.77 8.52 21.43 10.34 25.98 12.36 31.06 16.42 41.27 5.84-18.84 4.61-14.86 5.3-17.07"></path>
+    </g>
+</svg>
+                  </div></center>
+                  
+                  <h3 style="font-size:1.2em; font-weight:bolder">
+Short Term Signals.</h3>
+                  
+                </div> <!-- /.single-feature -->
+              </div>
+
+              <div class="col-md-3 col-sm-6 col-xs-6 mb-5" data-aos="fade-up" data-aos-duration="900">
+                <div class="single-feature">
+                  <center><div class="icon-box" style="width: 90px">
+          <svg preserveAspectRatio="xMidYMid meet" data-bbox="110.45 81.5 396.73 399.24" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" data-type="ugc" role="img" aria-labelledby="svgcid-6a3i9j-elwnom"><title id="svgcid-6a3i9j-elwnom"></title>
+    <g>
+        <path stroke-width="30" fill="none" stroke="#343047" stroke-linecap="round" stroke-linejoin="round" d="M442.53 480.74h64.65V267h-85.22"></path>
+        <path stroke-width="30" fill="none" stroke="#343047" stroke-linecap="round" stroke-linejoin="round" d="M359.51 480.73h41.39"></path>
+        <path stroke-width="30" fill="none" stroke="#343047" stroke-linecap="round" stroke-linejoin="round" d="M194.2 267h-83.75v213.74H295.3"></path>
+        <path stroke-width="15.84" fill="none" stroke="#343047" stroke-linecap="round" stroke-linejoin="round" d="M305.51 146.29v253.6"></path>
+        <path fill="#343047" d="M260.49 159.46l45.02-77.96 45.02 77.96h-90.04z"></path>
+        <path d="M359.65 419.86s-13.58-156 39.51-233.21" stroke-width="15.84" fill="none" stroke="#343047" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path fill="#343047" d="M419.85 232.26l30.99-84.52-88.7 15.41 57.71 69.11z"></path>
+        <path d="M249.37 420.44s14.25-156-38.5-233.39" stroke-width="15.84" fill="none" stroke="#343047" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path fill="#343047" d="M247.98 163.71l-88.63-15.79 30.63 84.65 58-68.86z"></path>
+    </g>
+</svg>
+                  </div></center>
+                  
+                  <h3 style="font-size:1.2em; font-weight:bolder">
+2 to 8 Signals per day.</h3>
+                  
+                </div> <!-- /.single-feature -->
+              </div>
+               <!-- /.col- -->
+               <div class="col-md-3 col-sm-6 col-xs-6 mb-5" data-aos="fade-up" data-aos-duration="900">
+                <div class="single-feature">
+                  <center><div class="icon-box" style="width: 90px">
+    <svg preserveAspectRatio="xMidYMid meet" data-bbox="53.794 70.809 492.501 434.558" viewBox="0 0 600 576.24" xmlns="http://www.w3.org/2000/svg" data-type="ugc" role="img" aria-labelledby="svgcid-93nsthrvkomm"><title id="svgcid-93nsthrvkomm"></title>
+    <g>
+        <path d="M545.22 87.31a21.78 21.78 0 00-9.8-13.14A26 26 0 00521 70.86a45.61 45.61 0 00-14.31 3.27h0c-4.38 1.7-32.5 13.35-73.47 30.36-28.69 11.9-63.37 26.32-99.72 41.43l5.12 13.55 100.15-41.6c41-17 70.25-29.09 73.18-30.25a30.33 30.33 0 019.45-2 13.23 13.23 0 016.76 1.09c1.42.83 2.36 1.79 3.08 4.42s.89 7.07-.58 13.55v.1l-74 374.11a22.85 22.85 0 01-6.52 8.29c-4.54 3.6-10.73 6.24-22.83 1.23L261.88 355.72a7.38 7.38 0 00-12.68 4.81l-18.86 101.05c-1-2.23-2-4.83-3.13-8.33-5.83-18.21-32.09-109.37-34.67-118.36l259.68-168.12a7.23 7.23 0 007.14 5.6 7.91 7.91 0 001.55-.14 7.25 7.25 0 005.78-7 7.67 7.67 0 00-.17-1.66 13 13 0 00-1-6.57 11.51 11.51 0 00-7.9-6.12 13.69 13.69 0 00-8.69.92l-.72.27-265.15 171.7-101.65-33.6h0a31.38 31.38 0 01-6.62-3.54c-3.42-2.38-6.13-5.48-6.56-8.8a4.17 4.17 0 011-3.27 18.16 18.16 0 014.54-4.18 39.16 39.16 0 018.12-4.09l.22-.09.24-.1s82.39-34.3 175.06-72.84l-5.13-13.56C162.07 217.21 81.49 250.75 77 252.64l-.15.05h0a53.34 53.34 0 00-11.14 5.65 31.26 31.26 0 00-8.35 7.94 19.45 19.45 0 00-3.45 13.35c1.17 9.2 7.45 15.23 12.63 18.86a46.07 46.07 0 0010.17 5.33h0l101.52 33.56c1.67 5.81 28.8 100.29 35.19 120.25 3.35 10.44 6.44 16.23 9.35 19.89a16.93 16.93 0 004.31 4 10.26 10.26 0 001.82.86l.3.15a4.06 4.06 0 00.57.12c9.56 3.54 17.64-2.63 17.64-2.63l.23-.17 69.59-61.23 102.93 82.54.91.4c16.51 7.11 30.17 3.2 38.1-3.07a38.44 38.44 0 0011.14-14.46l.26-.63 74.23-375.51c1.82-8.04 2-14.78.42-20.58zM244.79 463.09l16.64-89.16 44.32 35.54z" stroke-width="10.72" stroke="#343047" stroke-linecap="round" stroke-linejoin="round" fill="#343047"></path>
+        <path fill="none" stroke-width="12.16" stroke="#343047" stroke-linecap="round" stroke-linejoin="round" d="M287.28 349.58l176.07-179.86"></path>
+        <path fill="#343047" d="M321.36 155.723l2.401 6.115a9.57 9.57 0 01-5.41 12.406l-27.886 10.951a9.57 9.57 0 01-12.406-5.41l-2.402-6.115a9.57 9.57 0 015.41-12.405l27.887-10.952a9.57 9.57 0 0112.406 5.41z"></path>
+    </g>
+</svg>
+                  </div></center>
+                  
+                  <h3 style="font-size:1.2em; font-weight:bolder">Telegram Live alerts.</h3>
+                  
+                </div> <!-- /.single-feature -->
+              </div>
+
+
+              <div class="col-md-3 col-sm-6 col-xs-6 mb-5" data-aos="fade-up" data-aos-duration="900">
+                <div class="single-feature">
+                  <center><div class="icon-box" style="width: 90px">
+  <svg preserveAspectRatio="xMidYMid meet" data-bbox="66 66 468 468" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" data-type="ugc" role="img" aria-labelledby="svgcid--jvlm6leb8iy4"><title id="svgcid--jvlm6leb8iy4"></title>
+    <g>
+        <path fill="#343047" d="M345.28 300c0 25.007-20.273 45.28-45.28 45.28s-45.28-20.273-45.28-45.28 20.273-45.28 45.28-45.28 45.28 20.273 45.28 45.28z"></path>
+        <path d="M174.45 497.5a234.14 234.14 0 01-29.11-21.9" fill="none" stroke="#343047" stroke-linecap="round" stroke-linejoin="round" stroke-width="30"></path>
+        <path d="M108.35 434.3A232.93 232.93 0 0166 300C66 170.77 170.77 66 300 66s234 104.77 234 234-104.77 234-234 234a234.41 234.41 0 01-61.38-8.13" fill="none" stroke="#343047" stroke-linecap="round" stroke-linejoin="round" stroke-width="30"></path>
+        <path d="M459.21 374.17a175.59 175.59 0 117.79-128.6" fill="none" stroke="#343047" stroke-linecap="round" stroke-linejoin="round" stroke-width="30"></path>
+        <path d="M475.6 300c0 4.93-.2 9.82-.6 14.64" fill="none" stroke="#343047" stroke-linecap="round" stroke-linejoin="round" stroke-width="30"></path>
+        <path fill="none" stroke="#343047" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" d="M413.82 300c0 62.861-50.959 113.82-113.82 113.82-62.861 0-113.82-50.959-113.82-113.82 0-62.861 50.959-113.82 113.82-113.82 62.861 0 113.82 50.959 113.82 113.82z"></path>
+    </g>
+</svg>
+                  </div></center>
+                  
+                  <h3 style="font-size:1.2em; font-weight:bolder">Almost 90% Accuracy.</h3>
+                  
+                </div> <!-- /.single-feature -->
+              </div>
+
+
+              <div class="col-md-3 col-sm-6 col-xs-6 mb-5" data-aos="fade-up" data-aos-duration="900">
+                <div class="single-feature">
+                  <center><div class="icon-box" style="width: 90px">
+  <svg preserveAspectRatio="xMidYMid meet" data-bbox="35.43 53.49 529.01 490.95" viewBox="35.43 53.49 529.01 490.95" xmlns="http://www.w3.org/2000/svg" data-type="color" role="img" aria-labelledby="svgcid-l9gqs-id13yq"><title id="svgcid-l9gqs-id13yq"></title>
+    <g>
+        <path d="M101.52 200.35v98.37H85.68v-98.37a7.92 7.92 0 0115.84 0z" fill="#343047" data-color="1"></path>
+        <path d="M85.68 455.63h15.84v80.89a7.92 7.92 0 01-15.84 0z" fill="#343047" data-color="1"></path>
+        <path d="M305.3 63.49v82.24h-20V63.49a10 10 0 0120 0z" fill="#343047" data-color="1"></path>
+        <path d="M285.3 376.59h20v86.26a10 10 0 01-20 0z" fill="#343047" data-color="1"></path>
+        <path d="M514.33 191.35v84.92h-15.84v-84.92a7.92 7.92 0 0115.84 0z" fill="#343047" data-color="1"></path>
+        <path d="M498.49 404.94h15.84V471a7.92 7.92 0 11-15.84 0z" fill="#343047" data-color="1"></path>
+        <path d="M136.63 268.72H50.57a15 15 0 00-15 15v49.77a11.78 11.78 0 0011.78 11.79h6.43a11.79 11.79 0 0011.79-11.79v-34.77h56.06v156.91H65.57v-52.87A11.78 11.78 0 0053.78 391h-6.43a11.77 11.77 0 00-11.78 11.78v67.87a15 15 0 0015 15h86.06a15 15 0 0015-15V283.72a15 15 0 00-15-15z" fill="#343047" data-color="1"></path>
+        <path d="M549.44 246.27h-86.06a15 15 0 00-15 15v158.67a15 15 0 0015 15h86.06a15 15 0 0015-15V261.27a15 15 0 00-15-15zm-15 158.67h-56.06V276.27h56.06z" fill="#343047" data-color="1"></path>
+        <path d="M345.9 264.74a15 15 0 0015-15v-119a15 15 0 00-15-15H244.7a15 15 0 00-15 15v260.85a15 15 0 0015 15h101.2a15 15 0 0015-15v-54.53a13.55 13.55 0 00-13.56-13.55h-2.89a13.54 13.54 0 00-13.55 13.55v39.53h-71.2V145.73h71.2v104a15 15 0 0015 15z" fill="#343047" data-color="1"></path>
+        <path fill="#343047" d="M360.9 287.03v15.16c0 7.715-6.255 13.97-13.97 13.97h-1.61c-7.715 0-13.97-6.255-13.97-13.97v-15.16c0-7.715 6.255-13.97 13.97-13.97h1.61c7.715 0 13.97 6.255 13.97 13.97z" data-color="1"></path>
+        <path fill="#343047" d="M64.98 363.74v8.36c0 4.81-3.9 8.71-8.71 8.71H44.14a8.71 8.71 0 01-8.71-8.71v-8.36c0-4.81 3.9-8.71 8.71-8.71h12.13c4.81 0 8.71 3.9 8.71 8.71z" data-color="1"></path>
+    </g>
+</svg>
+                  </div></center>
+                  
+                  <h3 style="font-size:1.2em; font-weight:bolder">1500 to 3500 Pips per month.</h3>
+                  
+                </div> <!-- /.single-feature -->
+              </div>
+
+
+
+              <div class="col-md-3 col-sm-6 col-xs-6 mb-5" data-aos="fade-up" data-aos-duration="900">
+                <div class="single-feature">
+                  <center><div class="icon-box" style="width: 90px">
+    <svg preserveAspectRatio="xMidYMid meet" data-bbox="82.69 70.44 434.62 459.12" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" data-type="ugc" role="img" aria-labelledby="svgcid-jymhcl-eckg47"><title id="svgcid-jymhcl-eckg47"></title>
+    <g>
+        <path fill="none" stroke="#343047" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" d="M196.43 282.26v247.29H82.69V282.26h113.74z"></path>
+        <path fill="none" stroke="#343047" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" d="M356.87 178.43v351.12H243.13V178.43h113.74z"></path>
+        <path fill="none" stroke="#343047" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" d="M517.31 414.61v114.95H403.56V70.44h113.75v119.12"></path>
+        <path fill="none" stroke="#343047" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" d="M517.31 250.78v122.69"></path>
+    </g>
+</svg>
+                  </div></center>
+                  
+                  <h3 style="font-size:1.2em; font-weight:bolder">3 Take profits per signal.</h3>
+                  
+                </div> <!-- /.single-feature -->
+              </div>
+
+
+              <div class="col-md-3 col-sm-6 col-xs-6 mb-5" data-aos="fade-up" data-aos-duration="900">
+                <div class="single-feature">
+                  <center><div class="icon-box" style="width: 90px">
+    <svg preserveAspectRatio="xMidYMid meet" data-bbox="14.28 56.31 532.36 486.331" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" data-type="ugc" role="img" aria-labelledby="svgcid--4x0e2m8eqdnd"><title id="svgcid--4x0e2m8eqdnd"></title>
+    <g>
+        <path d="M501.75 292.16L539.41 281l-1.53-43.56-38.64-8.51a172.28 172.28 0 00-14.36-39.75L509.79 158l-26.25-34.8-37.13 15.54a172.25 172.25 0 00-61.71-35.88l-4.42-40.55-43.17-6-15.46 38a172.49 172.49 0 00-40.54 6.89L254 70.11l-38.83 19.8 9.22 40.23a173.64 173.64 0 00-29.3 28.69L155 149l-20.45 38.49L165 215a174.67 174.67 0 00-6.44 28.31c-.57 4.09-1 8.15-1.23 12.2l-38.17 14.8 5.33 43.26 40.14 5.1a173.53 173.53 0 0017.1 38.08l-22.33 33.52 29.17 32.38 35.27-18.46a171.86 171.86 0 0036.31 21.71l1 39.56 42.47 9.79 18.1-34.79a172.48 172.48 0 0042.65-3.16l23.27 31.38 40.41-16.35L423 413.7a174.32 174.32 0 0033.11-27.28l37 12.33 23.72-36.57-26.32-28.78a173.72 173.72 0 0011.24-41.24zm-63.75-9.7a108.83 108.83 0 11-92.67-122.88A108.82 108.82 0 01438 282.46z" stroke-width="27.94" fill="none" stroke="#343047" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M499.16 476.94q-8.07 7-16.74 13.29-6.65 4.84-13.62 9.31t-14 8.35a277 277 0 01-135.1 34.75c-120.2 0-221.8-75.23-254.94-178.56" stroke-width="25" fill="none" stroke="#343047" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path fill="#343047" d="M124.91 370.62l-71.45-86.48-39.18 105.12 110.63-18.64z"></path>
+        <path d="M546.64 422.78q-6.61 10.16-14.21 19.66" stroke-width="25" fill="none" stroke="#343047" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+</svg>
+                  </div></center>
+                  
+                  <h3 style="font-size:1.2em; font-weight:bolder">No manual close.</h3>
+                  
+                </div> <!-- /.single-feature -->
+              </div>
+
+              <div class="col-md-3 col-sm-6 col-xs-6 mb-5" data-aos="fade-up" data-aos-duration="900">
+                <div class="single-feature">
+                  <center><div class="icon-box" style="width: 90px">
+    <svg preserveAspectRatio="xMidYMid meet" data-bbox="66 66 468 468" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" data-type="ugc" role="img" aria-labelledby="svgcid-y30n2a11vqe3"><title id="svgcid-y30n2a11vqe3"></title>
+    <g>
+        <path fill="#343047" d="M345.28 300c0 25.007-20.273 45.28-45.28 45.28s-45.28-20.273-45.28-45.28 20.273-45.28 45.28-45.28 45.28 20.273 45.28 45.28z"></path>
+        <path d="M527.66 245.66A235 235 0 01534 300q0 10.5-.91 20.77C522.58 440.28 422.24 534 300 534 170.77 534 66 429.23 66 300S170.77 66 300 66a233 233 0 01151.8 55.92" fill="none" stroke="#343047" stroke-linecap="round" stroke-linejoin="round" stroke-width="30"></path>
+        <path d="M500 178.43a235.49 235.49 0 0112 22.27" fill="none" stroke="#343047" stroke-linecap="round" stroke-linejoin="round" stroke-width="30"></path>
+        <path fill="none" stroke="#343047" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" d="M300 180.25V300l96.98 122.69"></path>
+    </g>
+</svg>                  </div></center>
+                  
+                  <h3 style="font-size:1.2em; font-weight:bolder">Asia, London & USA Times.
+</h3>
+                  
+                </div> <!-- /.single-feature -->
+              </div>
+
+              <div class="col-md-3 col-sm-6 col-xs-6 mb-5" data-aos="fade-up" data-aos-duration="900">
+                <div class="single-feature">
+                  <center><div class="icon-box" style="width: 90px">
+      <svg preserveAspectRatio="xMidYMid meet" data-bbox="51.322 55.021 512.455 512.069" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" data-type="ugc" role="img" aria-labelledby="svgcid-1tixeurp56sq"><title id="svgcid-1tixeurp56sq"></title>
+    <g>
+        <path d="M84.3 124.5c5.2-7.1 11-13.8 17.3-20.1" fill="none" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" stroke="#343047" stroke-miterlimit="10"></path>
+        <path d="M133.3 79.6c28.9-17.5 63.2-26.6 99.5-24.2 93.7 6.3 164.6 87.3 158.4 181.1-6.3 93.7-87.3 164.6-181.1 158.4-93.7-6.3-164.6-87.3-158.4-181.1 1-15.4 4.1-30.2 8.9-44.1" fill="none" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" stroke="#343047" stroke-miterlimit="10"></path>
+        <path d="M405 227.3c93.7 6.3 164.6 87.3 158.4 181.1S476.1 573 382.3 566.7c-84.8-5.7-151-72.6-158.1-154.8" fill="none" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" stroke="#343047" stroke-miterlimit="10"></path>
+        <path d="M351.3 437.9c-.1 6.2-2.1 11.3-5.9 15.3-3.8 4-8.7 5.9-14.7 5.9-6.1 0-11.1-2-15-6-4-4-5.9-9.1-5.9-15.3 0-6.1 2-11.2 5.9-15.3 4-4 8.9-6 14.9-6 3.3 0 6.4.6 9.2 1.9 2.9 1.3 5.2 3.1 7.1 5.3 1.9 2.3 3.2 4.9 3.7 7.8h-5.3c-.6-2-1.6-3.7-3-5.2s-3.1-2.7-5.2-3.5c-2-.8-4.2-1.2-6.5-1.2-3 0-5.7.7-8.1 2.1-2.4 1.4-4.2 3.3-5.6 5.8-1.3 2.5-2 5.3-2 8.4 0 4.8 1.4 8.7 4.3 11.7s6.7 4.5 11.3 4.5c2.5 0 4.8-.5 6.9-1.4 2.1-.9 3.9-2.3 5.3-4 1.4-1.7 2.4-3.6 2.9-5.8h-16.5V438h22.2z" fill="#343047" stroke-width="5" stroke="#343047" stroke-miterlimit="10"></path>
+        <path d="M362.9 453c-4.1-4.1-6.1-9.1-6.1-15.3 0-6.1 2-11.2 6.1-15.3 4.1-4.1 9.3-6.1 15.5-6.1 6.2 0 11.4 2 15.5 6.1s6.1 9.1 6.1 15.3c0 6.1-2 11.2-6.1 15.3-4.1 4.1-9.3 6.1-15.5 6.1-6.3 0-11.4-2-15.5-6.1zm27.2-3.6c3.1-3.1 4.6-7 4.6-11.7 0-4.7-1.5-8.6-4.6-11.7-3.1-3.1-7-4.6-11.7-4.6-4.7 0-8.6 1.6-11.7 4.7-3.1 3.1-4.6 7-4.6 11.6s1.5 8.5 4.6 11.6c3.1 3.1 7 4.7 11.7 4.7 4.7 0 8.6-1.5 11.7-4.6z" fill="#343047" stroke-width="5" stroke="#343047" stroke-miterlimit="10"></path>
+        <path d="M431.8 453.5v4.8h-23.3V417h5.1v36.5h18.2z" fill="#343047" stroke-width="5" stroke="#343047" stroke-miterlimit="10"></path>
+        <path d="M467.5 422.9c4 3.9 5.9 8.8 5.9 14.8s-2 10.9-5.9 14.8c-4 3.9-9 5.8-15 5.8h-13.7V417h13.7c6 .1 11 2 15 5.9zm-3.8 26.1c3-3 4.4-6.8 4.4-11.3 0-3-.7-5.7-2-8.1-1.3-2.4-3.2-4.3-5.6-5.6-2.4-1.4-5.1-2-8.2-2h-8.4v31.6h8.4c4.6-.1 8.4-1.6 11.4-4.6z" fill="#343047" stroke-width="5" stroke="#343047" stroke-miterlimit="10"></path>
+        <path d="M191.1 144.5c-3-2.1-6.5-3.7-10.1-4.7v-14.3c6.4 1.3 12.7 3.8 18.1 7.6l-8 11.4zm-10.2 25.1c11.6 5 21.1 11.2 21.1 23 0 5.6-1.6 10.5-4.4 14.7-2.8 4.2-6.8 7.4-11.6 9.5-1.6.7-3.3 1.3-5.1 1.8v-14.8c2.2-1.1 4-2.5 5.2-4.3 1.2-1.8 1.9-4.1 1.9-6.9 0-2.8-2.9-5.3-7.1-7.6v-15.4zm0-29.8c-2.3-.6-4.7-1-7.1-1.2v28.1c2.4.9 4.8 1.9 7.1 2.9V185c-2.1-1.1-4.5-2.2-7.1-3.3v24.1c2.4-.3 4.6-.8 6.5-1.7l.6-.3v14.8c-2.3.6-4.7 1-7.1 1.2v5.9h-10.2v-6.2c-2.3-.3-4.7-.9-7.1-1.6v-14.7c2.4.9 4.8 1.6 7.1 2.1v-27.6c-2.4-.9-4.8-1.9-7.1-2.9v-15.4c2.1 1.1 4.5 2.2 7.1 3.3v-23.6c-1.8.4-3.5.9-5.1 1.5-.7.3-1.4.6-2 .9v-15c2.3-.7 4.7-1.2 7.1-1.6v-6.2h10.2v5.8c2.4.1 4.8.4 7.1.9v14.4zm-24.4 78c-5.9-1.7-12-4.5-18-8.6l7.8-11.5c3.4 2.3 6.8 4.1 10.2 5.4v14.7zm0-43c-11.6-5-21.1-11.2-21.1-23 0-5.2 1.6-9.8 4.3-13.7 3.2-4.6 8-8.1 13.6-10.3 1-.4 2.1-.8 3.2-1.2v15c-2.3 1.2-4.1 2.7-5.4 4.5-1.1 1.6-1.8 3.5-1.8 5.8 0 2.8 2.9 5.3 7.1 7.6v15.3z" fill="#343047"></path>
+        <path d="M204.9 332.6c-6.7 2.2-13.4 3.3-19.9 3.3-9.7 0-18.9-2.4-26.5-7.3-7.8-5-13.9-12.5-17.2-22.4-.5-1.6-1-3.3-1.4-5.1h-7.5v-10.2h6.3v-3.5h-6.3v-10.2h7.5c.5-2.4 1.2-4.6 2.1-6.8 3.6-9.1 9.7-16.3 17.3-21.2 7.5-4.9 16.5-7.5 25.9-7.5 6.3 0 12.7 1.2 19.1 3.7l-5.1 13c-4.6-1.8-9.4-2.7-14-2.7-6.7 0-13 1.8-18.3 5.2-5.2 3.4-9.4 8.3-11.9 14.6-.2.6-.4 1.1-.6 1.7h29.8v10.2h-31.6v3.5h31.6v10.2h-30c.1.3.2.5.2.8 2.2 6.7 6.3 11.7 11.4 15 5.3 3.4 11.9 5.1 19.1 5.1 5.1 0 10.3-.9 15.6-2.6l4.4 13.2z" fill="#343047"></path>
+        <path d="M294.5 131.7l5.1 4.7-9.4 10.3-5.1-4.7c-2.2-2-4.4-3.6-6.9-4.7-2.4-1-5.2-1.6-8.6-1.5-1.4 0-2.7.2-3.8.6-2.9.9-5 2.9-6.4 5.4-1.6 2.8-2.3 6.1-2.2 9.2 0 1.5.2 3 .6 4.3.8 2.6 2.8 6 4.9 9.2h30v10.2h-23.4c1.7 2.9 2.8 5.5 2.9 8 .3 6.8-5.4 13.6-12.5 20.8h43.1v14h-59.7l-5.1-11.7c3.1-3.4 5.5-5.7 7.8-8 6.5-6.5 12.6-12.6 12.5-14.6 0-.2-2.1-3.4-4.6-7l-1-1.5H241v-10.2h5.7c-.9-1.7-1.6-3.4-2.1-5.1-.8-2.5-1.2-5.3-1.2-8.1-.1-5.4 1.2-11.3 4-16.3 3-5.4 7.7-9.8 14.4-11.9 2.3-.7 4.9-1.1 7.7-1.2 5.4-.1 10 .8 14.2 2.6 4 1.6 7.5 4.1 10.8 7.2z" fill="#343047"></path>
+        <path fill="#343047" d="M243.4 292.5h19.3L240 246.1h16.6l13.4 28.7 14.4-28.7H301l-24.3 46.1v.3h19.4v10.2h-19.4v3.4h19.4v10.2h-19.4v15.1h-13.9v-15.1h-19.4v-10.2h19.4v-3.4h-19.4v-10.2z"></path>
+    </g>
+</svg>
+                  </div></center>
+                  
+                  <h3 style="font-size:1.2em; font-weight:bolder">Signals for Currencies, Volatility & Gold.</h3>
+                  
+                </div> <!-- /.single-feature -->
+              </div>
+
+
+              <div class="col-md-3 col-sm-6 col-xs-6 mb-5" data-aos="fade-up" data-aos-duration="900">
+                <div class="single-feature">
+                  <center><div class="icon-box" style="width: 90px">
+    <svg preserveAspectRatio="xMidYMid meet" data-bbox="74.946 51.5 450.107 497.02" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" data-type="ugc" role="img" aria-labelledby="svgcid-2lbd24vs9sfk"><title id="svgcid-2lbd24vs9sfk"></title>
+    <g>
+        <path d="M154.07 86q11.06-2.9 24.17-6.3" fill="none" stroke="#343047" stroke-linecap="round" stroke-linejoin="round" stroke-width="30"></path>
+        <path d="M220.7 70.2c13.85-3.51 7.68-1.92 18.52-4.56 41.85-10.17 61.55-14.14 61.55-14.14s37.64 7.58 119.32 28.64C497.25 100 524.29 108 524.29 108c-.18.52 26.71 297.42-223.52 440.52C34.5 405.4 77.78 109.49 77.25 108c0 0 10.57-3.11 37.34-10.3" fill="none" stroke="#343047" stroke-linecap="round" stroke-linejoin="round" stroke-width="30"></path>
+        <path fill="none" stroke="#343047" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" d="M225.51 306.38l39.09 49.68 116.14-112.12"></path>
+    </g>
+</svg>
+                  </div></center>
+                  
+                  <h3 style="font-size:1.2em; font-weight:bolder">Risk management advice.</h3>
+                  
+                </div> <!-- /.single-feature -->
+              </div>
+               <!-- /.col- -->
+            </div> 
+</div>
+      </div>
+
+       <div class="second">
+         <div class="container-fluid mt-5">
+           <div class="row p-0 mb-5">
+             <div class="col-sm-7 p-0 mt-5"> <center><img src="images/telegram1.svg" height="400px" class="imgfix"></center></div>
+             <div class="col-sm-5 p-0 mms " style="margin-top: 100px">
+               <p class="jumbo-title" style="color:#343047 " data-aos="zoom-in-right">Live Telegram alerts.</p>
+        <p class="mt-3 mb-4 xzv" style="font-size: 1.2em;  font-weight: bolder; width: 80%" data-aos="zoom-in-right">Get each & every Signal right into your Telegram Inbox.</p>
+        <p class="jumbo-title2 nmb" style="color: #d7c16f">Signals are only given through our Free and Premuim Telegram channels in order to Get All Signals with Live alerts and on time. Most of the signals are sent during 08:00-19:00 (GMT). So traders from all over the world can use our signals for trading. Because these are the peak time in almost every country on earth.</p>
+
+             </div>
+           </div>
+           
+
+         </div>
+         <center> <div class="container-fluid mar0 nmv" style="margin-top: 260px">
+             <div class="row  mt-5 mar0"> 
+              <div class="col-sm-6 p-0 " >
+               <p class="jumbo-title bh" style="color:#fbfafb" data-aos="zoom-in-right">We do All the Hard Work for You.</p>
+        <p class="mt-3 mb-4 " style="font-size: 1.2em;  font-weight: bolder; width: 80%; color: #fbfafb">We provide signals on 29 Forex and Volatility pairs.</p>
+        <p class="jumbo-title2 nmb" style="font-weight: 600 !important; color: #d7c16f">Risk management in Forex Trading is very important for all Traders so, like no other Signals Provider, Our Analysts will give You recommendations & advice on managing risk.</p>
+
+             </div>
+             <div class="col-sm-6 p-0 mar0" style="margin-top: 100px"> <center><img src="images/3.svg" height="350px" class="imgfix"></center></div>
+           
+           </div>
+         </div></center>
+        <div style="margin-top: 200px">
+          <center>
+            <div class="container" style="overflow-x: hidden;">
+              <h3 class="jumbo-title mb-5" style="text-align: left ;" data-aos="zoom-in-right">
+Let them speak for us.
+
+</h3>
+<p class="jumbo-title2" style="color: #343047; text-align: left !important; width: 100%; font-weight: bold;">What our Customers said.
+</p>
+<div class="testimonials mb-5" style="margin-top: 100px; padding-top: 20px">
+  <center><p style="font-size: 10em; height: 100px">''</p></center>
+  <div>
+    <div class="splide">
+  <div class="splide__track">
+    <ul class="splide__list">
+      <li class="splide__slide"><center style="width:40%;" class="ff" data-aos="zoom-in">You are best
+
+Your signals are best ever signals i used
+
+Thank you so much<br><br><br><p style="color: #343047;font-size: 1.2em; font-weight: bold;">Jose C.</p></center></li>
+      <li class="splide__slide"><center style="width:40%;" class="ff" data-aos="zoom-in">My whole Family thanks you for your work. What you do is truly amazing<br><br><br><p style="color: #343047;font-size: 1.2em; font-weight: bold;">Kate H.</p></center></li>
+      <li class="splide__slide"><center style="width:40%;" class="ff" data-aos="zoom-in">Please dont ever close down WolfFx , i dont know where i would be without you honestly<br><br><br><p style="color: #343047; font-size: 1.2em; font-weight: bold;">Rose D.</p></center></li>
+    </ul>
+  </div>
+</div>
+  </div>
+</div>
+<div class="test2 " style="margin-top: 100px">
+  <div class="container-fluid p-0">
+    <p class="jumbo-title2 mb-5" style="color: #343047; text-align: center !important; width: 100%; font-weight: bold;">Signal Results 
+</p>
+    <div class="row p-0">
+      <div class="col-sm-6">  <div>
+
+<div class="swiper-container swiper-container2">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">  <center><img src="images/s1.jpg"  class="" width="400px"></center></div>
+    <div class="swiper-slide"> <center><img src="images/s2.jpg" class=""  width="400px"></center></div>
+<div class="swiper-slide"><center><img src="images/s4.jpg"  class="" width="400px"></center></div>
+        <div class="swiper-slide"><center><img src="images/s4.jpg"  class="" width="400px"></center></div>
+    <div class="swiper-slide">   <center><img src="images/s5.jpg"  class="" width="400px"></center></div>
+
+  </div>
+
+
+ 
+ 
+</div>
+
+
+   
+  </div></div>
+      <div class="col-sm-6">
+        <div>
+
+<div class=" swiper-container swiper-container1">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">  <center><video width="400" class="bc"  autoplay muted>
+  <source src="images/w1.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video></center></div>
+    <div class="swiper-slide"> <center><video width="400" class="bc" autoplay muted>
+  <source src="images/w2.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video></center></div>
+
+        <div class="swiper-slide"><center> <center><video width="400" class="bc" autoplay muted>
+  <source src="images/w3.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video></center></div>
+    
+
+  </div>
+
+
+ 
+ 
+</div>
+
+
+   
+  </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+<div style="margin-top: 200px; margin-bottom: 200px">
+  <h3 class="jumbo-title mb-3 mt-5" style="color: #343047">How does it Work?</h3>
+  <div class="container-fluid">
+    <div class="row mt-5 p-l-5">
+      <div class="col-sm-4" data-aos="fade-up-right">
+        <center></center>   <p style="font-size: 2em; font-weight: bolder; margin-bottom: 30px; text-align: left; padding: 10px; width: 80%">Step 1</p>
+        <div style="padding: 10px; width: 80%; background-image: url(images/step.svg); background-repeat: no-repeat;">
+       
+          <p style="font-size: 2em; font-weight: bolder; color: #343047; text-align: left;" class="mb-4">Choose one of Our Premium Services.</p>
+          <p class="mb-3" style="text-align: left;">Choose between Signals Packages.</p>
+          <p style="color: #343047; text-align: left;border-bottom:1px solid #343047; width: 100px; float: left; " onclick="window.location='services.html'">Get Started</p>
+              </div>
+      </div>
+      <div class="col-sm-4" data-aos="fade-up-right"> <center></center>   <p style="font-size: 2em; font-weight: bolder; margin-bottom: 30px; text-align: left; padding: 10px; width: 80%">Step 2</p>
+        <div style="padding: 10px; width: 80%; background-image: url(images/step.svg); background-repeat: no-repeat;">
+       
+          <p style="font-size: 2em; font-weight: bolder; color: #343047; text-align: left;" class="mb-4">Make Payment for Your Service.</p>
+          <p class="mb-3" style="text-align: left;">Choose your preferred payment plan and pay for your service.</p>
+         <p style="color: #343047; text-align: left;border-bottom:1px solid #343047; width: 100px; float: left; " onclick="window.location='services.html'">Get Started</p>
+              </div></div>
+      <div class="col-sm-4" data-aos="fade-up-right"> <center></center>   <p style="font-size: 2em; font-weight: bolder; margin-bottom: 30px; text-align: left; padding: 10px; width: 80%">Step 3</p>
+        <div style="padding: 10px; width: 80%; background-image: url(images/step.svg); background-repeat: no-repeat;">
+       
+          <p style="font-size: 2em; font-weight: bolder; color: #343047; text-align: left;" class="mb-4">Start Earning From Your Service</p>
+          <p class="mb-3" style="text-align: left;">Receive Signals ro your inbox.</p>
+         <p style="color: #343047; text-align: left;border-bottom:1px solid #343047; width: 100px; float: left; " onclick="window.location='services.html'">Get Started</p>
+              </div></div>
+    </div>
+  </div>
+
+</div> 
+<div class="group p-2">
+  <div class="container-fluid" >
+    
+    <div class="row p-0">
+      <div class="col-sm-8 p-0">  <p class="jumbo-title mb-3" style="text-align: left;">
+Want to make sure WOLFX Signals are the Best on the Market?</p>
+<p class="jumbo-title2"  style="text-align: left; width: 100%" >Join to WOLFX Signals Telegram Channel and receive 2 to 5 Signals per week completely Free.
+</p>
+<button class="btn btn-lg qw" style="float: left; margin-right: 10px" onclick="window.location='services.html';">Premium Plans</button> <button class="btn btn-lg qw" style="float: left; margin-right: 10px" onclick="window.location='https://t.me/wolfxsignals_free';">Join for free</button>
+</div>
+      <div class="col-sm-4 p-0"></div>
+    </div>
+  </div>
+
+</div>
+
+            </div>
+          </center>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#343047" fill-opacity="1" d="M0,288L48,266.7C96,245,192,203,288,192C384,181,480,203,576,181.3C672,160,768,96,864,58.7C960,21,1056,11,1152,53.3C1248,96,1344,192,1392,240L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+<div style="background-color: #343047"></div>
+<div class="whyus" style="background: #343047; padding-top: 30px; color: #d7c16f">
+  <center><p class="jumbo-title" style="font-size: 2em;">There is a lot Signal Providers, <span style="color: white">Why Us?</span></p>
+  <p class="jumbo-title2 mb-3" style="font-weight: bolder;">Our Accuracy and Constancy makes us different.</p>
+  <p style="width: 60%">Most signal providers use risk to reward strategies so their accuracy becomes compromised. But we use accuracy strategies so risk of loosing with our signals becomes very very low.
+
+</p>
+<button class="btn btn-lg mt-4" style="margin-right: 10px; width: 300px;  border:2px solid white" " onclick="window.location='https://t.me/wolfxsignals_free';">Join for free</button>
+  
+  <div class="container-fluid mt-5">
+    <div class="row p-0 mt-5 yyy" >
+      <div class="col-sm-3 col-6 p-0">
+        <svg preserveAspectRatio="xMidYMid meet" data-bbox="46.2 30 105.1 140" viewBox="46.2 30 105.1 140"  height="20" width="20" xmlns="http://www.w3.org/2000/svg" data-type="color" role="img"><defs><style>#comp-k9u9p58u svg [data-color="1"] {fill: #FBFAFB;}</style></defs>
+    <g>
+        <path d="M98.9 41.8c22.6 0 21.7 21.4 21.7 37.2H134c0-18.4 0-49-35.2-49-34.7 0-34.7 30.6-35 49h14c0-15.8 1.2-37.2 21.1-37.2zm52.3 50.3c0-5.8-4.7-10.5-10.5-10.5H57.1c-6 0-10.9 4.9-10.9 10.8v66.7c0 6 4.9 10.9 10.9 10.9h84.3c5.5 0 9.9-4.4 9.9-9.9v-68zm-46.7 38.6c0 .1-.5.3-.5.4V144c0 3-2.3 5.4-5.2 5.4s-5.2-2.4-5.2-5.4v-12.9c0-.1.4-.2.4-.3-3.8-1.9-6.1-5.9-6.1-10.4-.1-6.4 5.2-11.6 11.7-11.6S111 114 111 120.4c0 4.4-2.8 8.4-6.5 10.3z" fill="white" data-color="1"></path>
+    </g>
+</svg>
+ <span style="margin-left:10px">Safe & Secured</span>
+      </div>
+       <div class="col-sm-3 col-6 p-0">
+         <svg preserveAspectRatio="xMidYMid meet" data-bbox="53.5 64.6 93.4 62.1" viewBox="53.5 64.6 93.4 62.1" height="20" width="20" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="img" aria-labelledby="svgcid-ioa905jays8o"><title id="svgcid-ioa905jays8o"></title>
+    <g>
+        <path d="M56.7 126.7h87c1.8 0 3.2-1.5 3.2-3.2V67.8c0-1.8-1.5-3.2-3.2-3.2h-87c-1.8 0-3.2 1.5-3.2 3.2v55.7c0 1.7 1.4 3.2 3.2 3.2zm3.3-6.5V73.6l38.3 22.9c.5.3 1.1.5 1.7.5s1.2-.2 1.7-.5l38.9-23.3v47H60zM68.3 71h63.1L99.9 89.9 68.3 71z" fill="white"></path>
+    </g>
+</svg> <span style="margin-left:10px" >
+Support@m15signals.com</span>
+       </div>
+        <div class="col-sm-3 col-6 p-0">
+          <svg preserveAspectRatio="xMidYMid meet" data-bbox="20.527 13.569 158.947 172.931" viewBox="20.527 13.569 158.947 172.931" height="20" width="20" xmlns="http://www.w3.org/2000/svg" data-type="color" role="img" aria-labelledby="svgcid--16axda-qsfk9c"><defs><style>#comp-k9u9ubpp svg [data-color="1"] {fill: #FBFAFB;}</style></defs><title id="svgcid--16axda-qsfk9c"></title>
+    <g>
+        <path d="M23.2 79.6c.7-2.6 3.4-4.1 5.9-3.4 2.6.7 4.1 3.3 3.4 5.9-6.4 23.8.5 49.4 18.1 66.8 25.2 25 64.9 26.8 92.3 5.7l-20.2-5.6c-2.6-.7-4.1-3.4-3.4-6 .7-2.6 3.4-4.1 6-3.4l28.8 8c.1 0 .2.1.4.1.1 0 .2.1.2.1.3.1.5.2.7.4l.1.1c.2.1.4.3.6.5 0 0 .1 0 .1.1 0 0 0 .1.1.1.2.2.3.4.5.6l.1.1c.2.2.3.5.4.7 0 .1.1.2.1.2.1.2.1.4.2.6 0 .1 0 .2.1.3v.2l3.6 29.4c.3 2.7-1.6 5.1-4.2 5.4h-.6c-2.4 0-4.5-1.8-4.8-4.2l-2.5-20.4c-14.4 11.2-31.7 16.8-49.1 16.8-20.4 0-40.7-7.7-56.2-23.1-20.1-19.6-28-48.8-20.7-76z" fill="white" data-color="1"></path>
+        <path d="M149.3 51.2c-25.2-25-64.9-26.8-92.3-5.7l20.2 5.6c2.6.7 4.1 3.4 3.4 6-.6 2.1-2.5 3.5-4.7 3.5-.4 0-.9-.1-1.3-.2l-28.8-8c-.1 0-.2-.1-.4-.1-.1 0-.2-.1-.2-.1-.3-.1-.5-.2-.7-.4l-.1-.1c-.2-.1-.4-.3-.6-.5l-.1-.1s0-.1-.1-.1c-.2-.2-.3-.4-.5-.6l-.1-.1c-.2-.2-.3-.5-.4-.7 0-.1-.1-.2-.1-.2-.1-.2-.1-.4-.2-.6 0-.1 0-.2-.1-.3v-.2L38.7 19c-.3-2.7 1.6-5.1 4.2-5.4 2.6-.3 5.1 1.6 5.4 4.2l2.5 20.4c31.2-24.4 76.6-22.3 105.4 6.2 20 19.9 27.9 49 20.6 76.2-.6 2.2-2.5 3.6-4.7 3.6-.4 0-.8-.1-1.3-.2-2.6-.7-4.1-3.3-3.4-5.9 6.4-23.9-.5-49.6-18.1-66.9z" fill="white" data-color="1"></path>
+    </g>
+</svg>
+ <span style="margin-left:10px">No Subscription.</span>
+        </div>
+         <div class="col-sm-3 col-6 p-0"><svg preserveAspectRatio="xMidYMid meet" data-bbox="11.47 11.47 177.06 177.06" viewBox="11.47 11.47 177.06 177.06" height="20" width="20" xmlns="http://www.w3.org/2000/svg" data-type="color" role="img" aria-labelledby="svgcid--jgajw4zslf2"><defs><style>#comp-k9u9ue4p svg [data-color="1"] {fill: #FBFAFB;}</style></defs><title id="svgcid--jgajw4zslf2"></title>
+    <g>
+        <path d="M100 11.47c-48.894 0-88.53 39.636-88.53 88.53s39.636 88.53 88.53 88.53 88.53-39.636 88.53-88.53S148.894 11.47 100 11.47zM53.61 72.218c0-5.027 4.075-9.103 9.103-9.103s9.103 4.075 9.103 9.103c0 5.027-4.075 9.103-9.103 9.103s-9.103-4.075-9.103-9.103zm68.544 71.412c-2.146 1.448-6.865 4.071-13.731 5.423-.457.093-.92.166-1.382.244a41.45 41.45 0 0 1-2.445.348c-1.512.164-3.04.271-4.595.271s-3.084-.107-4.595-.271a41.366 41.366 0 0 1-2.446-.348c-.462-.077-.925-.151-1.382-.244-6.866-1.351-11.584-3.974-13.731-5.423-10.753-6.656-18.291-18.011-19.744-31.2-.276-2.504 1.766-4.669 4.285-4.669h75.227c2.519 0 4.56 2.165 4.285 4.669-1.455 13.19-8.993 24.544-19.746 31.2zm15.309-62.309a8.928 8.928 0 1 1 0-17.855 8.928 8.928 0 1 1 0 17.855z" fill="white" data-color="1"></path>
+    </g>
+</svg> <span style="margin-left:10px">Free Plan Available.</span></div>
+    </div>
+  </div>
+  </center>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#343047" fill-opacity="1" d="M0,96L48,122.7C96,149,192,203,288,208C384,213,480,171,576,165.3C672,160,768,192,864,202.7C960,213,1056,203,1152,197.3C1248,192,1344,192,1392,192L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+        </div>
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content" style="background: #343047; color: #fbfafb;">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Menu</h5>
+        <button type="button" class="close" style="background: transparent; border:transparent;" data-bs-dismiss="modal" aria-label="Close">
+          <span class="iconify" data-icon="ic:sharp-cancel" data-inline="false" style="color: #fbfafb;" data-width="40"></span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <center>
+         <p class="jumbo-title2" style="font-weight: bold;" onclick="window.location='index.html';">HOME</p>
+          <p class="jumbo-title2" style="font-weight: bold;" onclick="window.location='services.html';">SERVICES</p>
+           <p class="jumbo-title2" style="font-weight: bold;" onclick="window.location='faq.html';">FAQ</p>
+            <p class="jumbo-title2" style="font-weight: bold;" onclick="window.location='about.html';">ABOUT</p>
+             <p class="jumbo-title2" style="font-weight: bold;" onclick="window.location='index.html#footer';">CONTACT</p>
+              <p class="jumbo-title2" style="font-weight: bold;" onclick="window.location='auth/index.html';">LOGIN <span class="iconify" data-icon="bx:bxs-right-arrow-circle" data-inline="false" style="color: #fbfafb;" data-width="20"></span></p>
+       </center>
+      </div>
+      
+    </div>
+  </div>
+</div>  
+        <div class="container footer" id="footer">
+          
+          <div class="row">
+            <div class="col-sm-4" style="padding: 20px">
+              <div class="mb-5"><img src="images/logo.png" height="80px"></div>
+              <div class="mb-3" ><span><a href="terms.html" style="color: #343047; text-decoration: none;">Terms and Conditions</a> | <a href="privacy.html" style="color: #343047; text-decoration: none;">Privacy policy</a></span></div>
+              <div class=""><a href="fraud.html"  style="color: #343047; text-decoration: none;">fraud Warning /</a>Warning against illegal third party signal providers.</div>
+            </div>
+            <div class="col-sm-4 mt-4" style="padding: 20px">
+              <center>
+               <div class="mb-5"><center><span class="iconify" data-icon="fa-brands:facebook" style="margin-right: 20px; color: #343047" data-width="40px"  data-inline="false"></span><span class="iconify" data-icon="ant-design:instagram-filled" style="margin-right: 20px; color: #343047" data-width="40px" data-inline="false"></span><span onclick="window.location='https://t.me/wolfxsignals_free';" class="iconify" data-icon="bi:telegram"  style="margin-right: 20px; color: #343047" data-width="40px" data-inline="false"></span></center></div>
+              <div class="mb-3" ><span><a href="#" style="color: black; text-decoration: none; font-weight: bolder;">Subscribe to Latest News </a></span></div>
+              <div class=""><input type="text" name="" height="70px" class="df" style="margin-right: 10px; height: 50px"><a href="" class="btn btn-lg"  style="color: white; text-decoration: none; background-color: #343047; border-radius:0px ">suscribe</a></div></center>
+            </div>
+            <div class="col-sm-4 mt-4 bas" style="padding: 20px">
+              <div class="mb-5"><button class="btn btn-lg bass" style="float: right;" onclick="window.location='https://t.me/wolfxsignals_free';">Telegram</button></div>
+              <div class="mb-3 mar0" style="text-align: right; margin-top: 100px"><span class="iconify" data-icon="gg:danger" data-inline="false" style="color: red;"></span> Risk Warning</div>
+              <div class="" style="text-align: right;">Your capital is at risk.<br>
+
+Please check our  <a href="risk.html"  style="color: #343047; text-decoration: none;">Risk Disclosure.</a></div>
+            </div>
+            <div class="col-sm-12 mt-5"><p style="text-align: center;">copyright 2021 WOLFX Signals</p></div>
+          </div>
+        </div> 
+       </div>
+    </div>
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+
+     <script type="text/javascript">
+      var counterUp = $("#counter-up");
+      counterUp.counter({
+        autoStart: false,
+        duration: 7000,
+        countTo: 17024,
+        placeholder: 0,
+        easing: "easeOutCubic",
+        onStart: function() {
+         
+        },
+        onComplete: function() {
+          
+        }
+      });
+     function yourFunction(){
+   
+ counterUp.counter("start");
+    setTimeout(yourFunction, 5000);
+}
+
+yourFunction();
+var swiper = new Swiper('.swiper-container2',{
+  autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      }
+});
+
+var swiper1 = new Swiper('.swiper-container1',{
+  autoplay: {
+        delay: 6500,
+        disableOnInteraction: false,
+      }
+});
+     
+  new Splide( '.splide',{
+    autoplay: true,
+  } ).mount();
+  
+
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

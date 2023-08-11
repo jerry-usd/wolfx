@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+.first{
+  background-size: 100% 55%;
+	background-image: url('../images/jerry-purple.jpg');
+	height: auto;
+	background-repeat: no-repeat;
+}
+
+.second{
+  background-size: 100% 31%;
+	background-image: url('../images/jerry-purple1.jpg');
+	min-height: 300vh;
+	background-repeat: no-repeat;
+}
+.testimonials{
+	height: 500px;
+	background: #f2f2f2;
+}
+body,
+input {
+  font-family: "Poppins", sans-serif;
+  background: #fbfafb;
+}
+h3{
+	text-align: center;
+}
+.nnav-list ul{
+list-style: none;
+margin: 0px;
+padding: 0px;
+
+}
+.splide__slide{
+	padding: 10px;
+	min-height: 300px;
+	padding-top: 100px;
+	width: 20%;
+}
+.nnav-list ul li{
+display: inline-block;
+width: 17%;
+font-weight: bolder;
+font-size: 1.1em;
+text-align: center;
+
+}
+.nnav-list li{
+cursor: pointer;
+}
+.jumbo-title{
+	font-size: 3.5em;
+	font-weight: bolder;
+}
+.jumbo-title2{
+	width: 70%;
+	font-size: 1.2em;
+}
+.btn {
+	border-radius: 30px;
+	background: #343047;
+	color:  #fbfafb;
+}
+.btn-primary{
+  border-color: transparent;
+}
+.content{
+	background: url("../images/wave1.svg");
+	background-repeat: no-repeat;
+	background-color: #f2f2f2;
+	min-height: 90vh;
+	padding-top: 20px;
+	margin-top: 50px;
+}
+
+	.pricing {
+  
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 100%;
+
+}
+.pricing-item {
+
+  cursor: pointer;
+  position: relative;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: stretch;
+  align-items: stretch;
+  text-align: center;
+  -webkit-flex: 0 1 330px;
+  flex: 0 1 330px;
+}
+.pricing-action {
+  color: inherit;
+  border: none;
+  background: none;
+}
+.pricing-action:focus {
+  outline: none;
+}
+
+.pricing-feature-list {
+  text-align: left;
+}
+
+.pricing-palden .pricing-item {
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+  color: #84697c;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(46, 59, 125, 0.23);
+  border-radius: 20px 20px 10px 10px;
+  margin: 1em;
+}
+.other{
+	min-height: 90vh;
+	padding: 70px;
+	background-color: black;
+	margin-top: 30px;
+}
+@media screen and (min-width: 66.25em) {
+  .pricing-palden .pricing-item {
+    margin: 1em -0.5em;
+   
+  }
+  .accordion-button{
+    padding: 1em 1.25em;
+    font-size: .6em;
+    font-weight: bold;
+  }
+
+  .pricing-palden .pricing__item--featured {
+    margin: 0;
+    z-index: 3;
+    box-shadow: 0 0 20px rgba(46, 59, 125, 0.23);
+  }
+}
+.pricing-palden .pricing-deco {
+  border-radius: 10px 10px 0 0;
+  background:#343047;
+  padding: 4em 0 6em;
+  position: relative;
+}
+.pricing-palden .pricing-deco-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+}
+.pricing-palden .pricing-title {
+  font-size: 0.75em;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #fff;
+}
+.pricing-palden .deco-layer {
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+}
+.pricing-palden .pricing-item:hover .deco-layer--1 {
+  -webkit-transform: translate3d(15px, 0, 0);
+  transform: translate3d(15px, 0, 0);
+}
+.pricing-palden .pricing-item:hover .deco-layer--2 {
+  -webkit-transform: translate3d(-15px, 0, 0);
+  transform: translate3d(-15px, 0, 0);
+}
+.pricing-palden .icon {
+  font-size: 2.5em;
+}
+.pricing-palden .pricing-price {
+  font-size: 5em;
+  font-weight: bold;
+  padding: 0;
+  color: #fff;
+  margin: 0 0 0.25em 0;
+  line-height: 0.75;
+}
+.pricing-palden .pricing-currency {
+  font-size: 0.15em;
+  vertical-align: top;
+}
+.pricing-palden .pricing-period {
+  font-size: 0.15em;
+  padding: 0 0 0 0.5em;
+  font-style: italic;
+}
+.pricing-palden .pricing__sentence {
+  font-weight: bold;
+  margin: 0 0 1em 0;
+  padding: 0 0 0.5em;
+}
+.pricing-palden .pricing-feature-list {
+  margin: 0;
+  padding: 0.25em 0 2.5em;
+  list-style: none;
+  text-align: center;
+}
+.pricing-palden .pricing-feature {
+  padding: 1em 0;
+}
+.pricing-palden .pricing-action {
+  font-weight: bold;
+  margin: auto 3em 2em 3em;
+  padding: 1em 2em;
+  color: #fff;
+  border-radius: 30px;
+  background: #343047;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+.pricing-palden .pricing-action:hover, .pricing-palden .pricing-action:focus {
+  background-color: #100A13;
+}
+
+.pricing-palden .pricing-item--featured .pricing-deco {
+  padding: 5em 0 8.885em 0;
+}
+.nav{
+  display: none;
+}
+
+@media screen and (max-width: 1300px){
+
+.jumbo-title{
+    font-size: 3em;
+    padding: 5px;
+  }
+}
+
+#exampleModalCenter1  input{
+height: 60px;
+}
+
+#llp{
+  padding: 30px;
+}
+
+
+#llp .form-group{
+margin-bottom: 20px;
+}
+@media screen and (max-width: 500px){
+  .jumbo-title{
+    font-size: 25px;
+    padding: 5px;
+  }
+  .nnav{
+    display: none;
+  }
+  .content{
+    margin-top: 120px;
+  }
+    .jumbo img{
+      height: 170px;
+      margin-top: 100px;
+      margin-left: 50px;
+    }
+    .pn{
+      order: 3;
+      display: none;
+    }
+    .imgfix{
+      height: 200px;
+    }
+    .first{
+      background: url("../images/jerry-purple1.jpg");
+      background-repeat: no-repeat;
+      margin-top: 400px;
+    }
+    .xzv{
+      color: white !important
+    }
+    .qw{
+      font-size: .8em;
+    }
+    .nj{
+      margin-top: 0px !important;
+      position: relative;
+      top: -2 00px;
+    }
+    .df{
+      margin-right: 5px !important
+    }
+    .vcc{
+      padding-left: 20px !important;
+    }
+    .pop{
+      font-size: 1.5em !important;
+    }
+    .add{
+      position: relative;
+      top: -10px;
+    }
+    .mms{
+      margin-top: 0px !important;
+      padding: 20px !important
+    }
+    .mar0{
+      margin-top: 0px !important;
+    }
+    .yyy{
+      font-size: .7em;
+    }
+    .other{
+      padding: 20px;
+      padding-top: 90px;
+    }
+    .other .jumbo-title2{
+      width: 90%;
+    }
+    .nmv{
+      position: relative;
+      top: -50px;
+    }
+    .bh{
+      font-size: 1.3em;
+    }
+    .bas div{
+text-align: center !important;
+    }
+    .bass{
+float: none !important;
+    }
+    .nmb{
+width: 100%;
+padding: 5px;
+    }
+    .bc{
+      width: 90%;
+    }
+    .swiper-wrapper img{
+      width: 80%;
+    }
+    .nav{
+      position: absolute;
+      top: 0px;
+      display: block;
+      padding: 10px 5px;
+      background: #fbfafb;
+      width: 100%;
+    }
+    .jumbo{
+      position: relative;
+      top: -320px;
+    }
+    .g{
+      display: none;
+    }
+    .vjg{
+      width: 70%;
+
+    }
+    .mju{
+      margin-top: 60px;
+    }
+    .ment img{
+
+    }
+    .ff{
+      width: 70% !important;
+    }
+}
+@media screen and (max-width: 370px){
+
+.vcc{
+padding-left: 15px !important;
+}
+}
