@@ -7,5 +7,5 @@ https://deniji.xyz/projects/wolfx
 
 ## Installation 
 1. Clone Repo
-2. Launch home.html in browser
+2. Launch index.html in browser
 
