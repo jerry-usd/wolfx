@@ -5,6 +5,8 @@ A forex company design, to offer forex-related services. made with javascript, H
 https://deniji.xyz/projects/wolfx
 
 
+
+
 ## Installation 
 1. Clone Repo
 2. Launch index.html in browser
