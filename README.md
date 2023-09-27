@@ -2,7 +2,7 @@
 A forex company design, to offer forex-related services. made with javascript, HTML &amp;CSS
 
 ## Live link
-https://deniji.xyz/projects/wolfx
+[https://deniji.xyz/projects/wolfx](https://wolfxsignals.com/)
 
 
 
